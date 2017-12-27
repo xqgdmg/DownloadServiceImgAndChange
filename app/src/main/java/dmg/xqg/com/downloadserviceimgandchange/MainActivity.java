@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
         // 第一次进来先显示上一次下载好的，再下载，
         // 有变化才去下载？后台给个标志位？
-        Bitmap bitmapDownloaded = BitmapFactory.decodeFile(Environment.getExternalStorageDirectory() + "/com.pigamewallet/Record/" + "niamdeaaaa" + ".jpg");// 这里多个斜杠的
+        Bitmap bitmapDownloaded = BitmapFactory.decodeFile(Environment.getExternalStorageDirectory() + "/com.pigamewallet/Record/" + "name" + ".jpg");// 这里多个斜杠的
         if (bitmapDownloaded != null){
             imageView.setImageBitmap(bitmapDownloaded);
         };
